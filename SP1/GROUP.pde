@@ -15,22 +15,22 @@ class Group {
     switch (groupNumber) {
     case 1:
       xCoordinate = 50;
-      yCoordinate = 20;
+      yCoordinate = 50;
       break;
     case 2:
       xCoordinate = 225;
-      yCoordinate = 20;
+      yCoordinate = 50;
       break;
     case 3:
       xCoordinate = 50;
-      yCoordinate = 180;
+      yCoordinate = 50+160;
       break;
     case 4:
       xCoordinate = 225;
-      yCoordinate = 180;
+      yCoordinate = 50+160;
       break;
     }
-    fill(125);
+    fill(0,255,255);
     textSize(30);
     text(groupsArray, xCoordinate, yCoordinate);
   }
